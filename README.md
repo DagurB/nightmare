@@ -10,9 +10,9 @@ nasm -f bin file.asm -o file.bin
 ```bash
 qemu-system-x86_64 -hda file.bin
 ```
--fda means floppy disk a and
--hda means hard disk a
+* -fda means floppy disk a
+* -hda means hard disk a
 
 ## TODO:
-create makefile
-turn this into a iso (maybe?)
+* create makefile
+* turn this into a iso (maybe?)
